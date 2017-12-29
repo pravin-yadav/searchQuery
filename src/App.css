@@ -1,0 +1,52 @@
+.app {
+  text-align: center;
+  margin-top: 10%;
+}
+.title {
+  font-size: 100px;
+  color: #3cbc8d;
+}
+
+input[type="text"] {
+  width: 70%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  outline: 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  letter-spacing: 2px;
+  font-size: 18px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+@media only screen and (max-width: 460px) {
+  .app {
+    text-align: center;
+    margin-top: 35%;
+  }
+  .title {
+    font-size: 50px;
+    color: #3cbc8d;
+  }
+
+  input[type="text"] {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 860px) and (min-width: 461px) {
+  .app {
+    text-align: center;
+    margin-top: 20%;
+  }
+  .title {
+    font-size: 50px;
+    color: #3cbc8d;
+  }
+
+  input[type="text"] {
+    width: 80%;
+  }
+}
